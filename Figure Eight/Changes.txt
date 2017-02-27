@@ -1,0 +1,10 @@
+Changes made to Card:
+1) Added an instance variable (chosenSuit) to track the suit chosen by the user.
+2) Added a getter method for chosenSuit.
+3) Added a setter method for chosenSuit. 
+
+Changes made to Deck:
+1) Added instance variables to store the length of the deck as well as the number of cards per suit.
+2) Added a non-default constructor with the deck of cards as a parameter input.
+3) Added a method (numCards()) that counts the number of cards in the deck and returns in.
+4) Added a method (combine(...)) that accepts a deck of cards in the parameter and combines it with another deck.

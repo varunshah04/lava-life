@@ -1,0 +1,21 @@
+1. What is the big-O runtime (in terms of the size of the address book) of adding an entry to
+   your address book?
+   
+Ans: O(n) - insertSorted must iterate through all the nodes (lets say there are n nodes) in the
+     worst case.
+
+2. What is the big-O runtime of finding an entry in your address book?
+
+Ans: O(n) - find must iterate through all the nodes (lets say there are n nodes).
+
+3. What is the big-O runtime of removing an entry from your address book?
+
+Ans: O(n) - remove must iterate through all the nodes (lets say there are n nodes).
+
+4. What would be the big-O runtimes for each of these three methods if you implemented
+   your address book using an array instead of a linked list?
+
+Ans: The big-O runtimes would be pretty much the same for arrays and linked lists as we must
+     iterate through the entire collection of data in both cases. However, using an array would
+     additional operations as we would have to expand the capacity if we need to add more
+     elements and the array is at full capacity. This is why we prefer to use linked lists.  
