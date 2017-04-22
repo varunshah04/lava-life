@@ -9,3 +9,7 @@ This repository contains some of the projects I made for my *Data Structures* an
 **Graphical Editor**: A project that implements an object-oriented graphical editor applet that can be used to create and edit rectangles, ellipses, and line segments. Each of these can appear in either red, green, or blue. Additionally, the editor performs operations such as changing an object's color, moving an object, bringing an object to the front, pushing an object to the back, and exchanging the positions of two objects.  
 
 **Infix to Postfix**: A project that implements an infix to postfix converter that converts parenthesized or unparenthesized infix expressions into their equivalent postfix expressions. This is done using the Stack ADT.
+
+**Memory Game**: A project that implements an applet to play a Memory Game. There are 72 cards on the game board, all turned face down. The user must click two cards to overturn them - if they match, they are removed, otherwise they return to their original face down position. The game ends when all the playing cards have been removed.
+
+**SET Game**: A project that implements an applet for the SET card game. The applet has two operating modes: Solitaire and Tutorial. In Tutorial mode, the user is taught how to identify a set. In Solitaire mode, the user can choose to receive a hint if stuck. The game ends when the user successfully segments the entire deck into sets of 3 cards as per the rules of the game.
